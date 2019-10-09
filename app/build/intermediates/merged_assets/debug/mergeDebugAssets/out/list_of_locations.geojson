@@ -1,0 +1,69 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EPARK 435: Milan Mela Parking",
+        "hours": "Ground Floor\n1st Floor\n2nd Floor\n3rd Floor",
+        "phone": "For less than 3 hours\nFor more than 3 hours\nFor more than 6 hours\nFor more than 10 hours",
+        "description": "Near Trade Fair Grounds, Tangra, Kolkata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.396382,
+          22.545121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EPARK 164: Science City Parking",
+         "hours": "Ground Floor\n1st Floor\n2nd Floor\n3rd Floor",
+                "phone": "For less than 3 hours\nFor more than 3 hours\nFor more than 6 hours\nFor more than 10 hours",
+        "description": "Mirania Gardens, East Topsia, Kolkata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.395439,
+          22.541242
+        ]
+      }
+    },
+    {
+          "type": "Feature",
+          "properties": {
+            "name": "EPARK 684: JW Marriott Parking",
+             "hours": "Ground Floor\n1st Floor\n2nd Floor\n3rd Floor",
+                    "phone": "For less than 3 hours\nFor more than 3 hours\nFor more than 6 hours\nFor more than 10 hours",
+            "description": "4A, JBS Haldane Ave, Tangra, Kolkata"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              88.399182,
+              22.548611
+            ]
+          }
+        },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EPARK 721: Lakeview Apt. Parking",
+         "hours": "Ground Floor\n1st Floor\n2nd Floor",
+                "phone": "For less than 3 hours\nFor more than 3 hours\nFor more than 6 hours",
+        "description": "Mirania Gardens 2, Dhapa, Kolkata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.399331,
+          22.540943
+        ]
+      }
+    }
+  ]
+}

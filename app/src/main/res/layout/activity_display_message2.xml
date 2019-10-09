@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/selectedFloorLoc2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="580dp"
+                android:fontFamily="@font/bariol_bold"
+                android:gravity="center"
+                android:overScrollMode="ifContentScrolls"
+                android:text="Selected Floor: -"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/VehTypeLoc2"
+                android:layout_width="378dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/selectedFloorLoc2"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/bariol_bold"
+                android:gravity="center"
+                android:overScrollMode="ifContentScrolls"
+                android:text=" Choose Vehicle Type"
+                android:textSize="30sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/vehicleDescLoc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/selectedFloorLoc2"
+                android:gravity="center"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginBottom="30dp"
+                android:overScrollMode="ifContentScrolls"
+                android:fontFamily="@font/bariol_bold"
+                android:text="These are the rates for 1 hour, however you have to pay as per time passed and hence if you have kept the vehicle for half an hour you have to pay half the amount. Time elapsed is precisely calculated and for after 11 hours the rate/hour is increased by Rs. 5"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+
+
+
+
+            <Button
+                android:id="@+id/chooseFloorLoc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:overScrollMode="ifContentScrolls"
+                android:layout_below="@+id/emptySlotLoc2Floor3"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-200dp"
+                android:text="Choose Parking Floor" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="395dp"
+                android:layout_height="66dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="621dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/avlSlotsLoc2"
+                    android:layout_width="378dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/bariol_bold"
+                    android:gravity="center"
+                    android:overScrollMode="ifContentScrolls"
+                    android:text="Available Parking Slots 2"
+                    android:textSize="30sp"
+                    app:layout_constraintLeft_toRightOf="@+id/icon_frame_layout"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/emptySlotLoc2Floor0"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="250dp"
+                android:layout_marginRight="250dp"
+                android:layout_marginBottom="423dp"
+                android:overScrollMode="ifContentScrolls"
+                android:src="@android:color/holo_green_light"
+                />
+
+            <ImageView
+                android:id="@+id/emptySlotLoc2Floor3"
+                android:layout_width="57dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="461dp"
+                android:overScrollMode="ifContentScrolls"
+                android:layout_marginEnd="250dp"
+                android:layout_marginRight="250dp"
+                android:layout_marginBottom="212dp"
+                android:src="@android:color/holo_green_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/emptySlotLoc2Floor1"
+                android:layout_width="57dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="321dp"
+                android:layout_marginEnd="250dp"
+                android:layout_marginRight="250dp"
+                android:layout_marginBottom="352dp"
+                android:overScrollMode="ifContentScrolls"
+                android:src="@android:color/holo_green_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/emptySlotLoc2Floor2"
+                android:layout_width="57dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="392dp"
+                android:layout_marginEnd="250dp"
+                android:layout_marginRight="250dp"
+                android:layout_marginBottom="281dp"
+                android:overScrollMode="ifContentScrolls"
+                android:src="@android:color/holo_green_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/descLoc2Floor0"
+                android:layout_width="233dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="147dp"
+
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="425dp"
+                android:fontFamily="@font/bariol_bold"
+                android:overScrollMode="ifContentScrolls"
+                android:text="Ground Floor\nFor Parking Time\nLess than 3 Hours"
+
+                android:textSize="16sp"
+                android:layout_marginLeft="137dp" />
+
+            <TextView
+                android:id="@+id/descLoc2Floor3"
+                android:layout_width="233dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="147dp"
+                android:layout_marginLeft="147dp"
+                android:layout_marginTop="463dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="212dp"
+                android:fontFamily="@font/bariol_bold"
+                android:textSize="16sp"
+                android:overScrollMode="ifContentScrolls"
+                android:text="3rd Floor\nFor Parking Time\nMore than 10 Hours"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/descLoc2Floor1"
+                android:layout_width="233dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="147dp"
+                android:layout_marginLeft="147dp"
+                android:layout_marginTop="322dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="353dp"
+                android:overScrollMode="ifContentScrolls"
+                android:fontFamily="@font/bariol_bold"
+                android:textSize="16sp"
+                android:text="1st Floor\nFor Parking Time\nMore than 3 Hours"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/descLoc2Floor2"
+                android:layout_width="233dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="147dp"
+                android:layout_marginLeft="147dp"
+                android:layout_marginTop="392dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="283dp"
+                android:fontFamily="@font/bariol_bold"
+                android:textSize="16sp"
+                android:overScrollMode="ifContentScrolls"
+                android:text="2nd Floor\nFor Parking Time\nMore than 6 Hours"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/descLoc2"
+                android:layout_width="wrap_content"
+                android:layout_height="119dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginBottom="500dp"
+                android:fontFamily="@font/bariol_bold"
+                android:gravity="center"
+                android:overScrollMode="ifContentScrolls"
+                android:text="One of the following slots are to be occupied based only on your preference of time. It has nothing to do with the amount that you'll be charged. Selecting by preference of time helps in keeping the parking space sorted."
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/bikeIcon2"
+                android:layout_width="125dp"
+                android:layout_height="155dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/vehicleDescLoc2"
+                android:layout_marginTop="808dp"
+                android:layout_marginEnd="268dp"
+                android:layout_marginRight="268dp"
+                android:overScrollMode="ifContentScrolls"
+                android:src="@mipmap/bike_type_fore" />
+
+            <ImageView
+                android:id="@+id/carIcon2"
+                android:layout_width="139dp"
+                android:layout_height="143dp"
+                android:layout_below="@id/bikeIcon2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:overScrollMode="ifContentScrolls"
+
+                android:layout_marginTop="-37dp"
+
+                android:layout_marginEnd="258dp"
+
+                android:layout_marginRight="258dp"
+                android:src="@mipmap/car_type_fore" />
+
+
+
+            <Button
+                android:id="@+id/continueLoc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="113dp"
+                android:layout_marginRight="113dp"
+                android:layout_marginLeft="113dp"
+                android:layout_marginStart="113dp"
+                android:onClick="checkout1"
+                android:layout_marginBottom="30dp"
+                android:overScrollMode="ifContentScrolls"
+                android:gravity="center"
+                android:layout_below="@id/radio2"
+                android:text="Proceed to Checkout"
+                android:layout_marginTop="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.021" />
+
+            <TextView
+                android:id="@+id/bikeDescLoc2"
+                android:layout_width="251dp"
+                android:layout_height="68dp"
+                android:layout_below="@id/vehicleDescLoc2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/bariol_bold"
+                android:textSize="18sp"
+                android:overScrollMode="ifContentScrolls"
+                android:text="BIKE\nRs. 25 for 1 hour"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/carDescLoc2"
+                android:layout_width="223dp"
+                android:layout_height="73dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="970dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:fontFamily="@font/bariol_bold"
+                android:textSize="18sp"
+                android:overScrollMode="ifContentScrolls"
+                android:text="CAR\nRs. 30 for 1 hour"/>
+
+            <RadioGroup
+                android:id="@+id/radio2"
+                android:layout_width="98dp"
+                android:layout_height="79dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="1046dp"
+                android:layout_marginEnd="158dp"
+                android:layout_marginRight="158dp">
+
+
+                <RadioButton
+                    android:id="@+id/rad1Loc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton2"
+                    android:text="Bike"
+                    android:checked="true"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rad2Loc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton2"
+                    android:text="Car"></RadioButton>
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/selectedVehLoc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radio2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:text="Selected Vehicle: -" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
